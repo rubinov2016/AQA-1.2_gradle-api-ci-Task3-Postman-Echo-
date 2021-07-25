@@ -23,7 +23,7 @@ public class TestPostman {
                 .statusCode(200)
                 //в нужном поле хранятся отправленные вами данные
                 // (обратите внимание, теперь у вас не массив, а объект)
-                .body("data", equalTo("some data"))
+                .body("data", equalTo("some data2"))
                 //.header("My header", "value1")
         ;
     }
